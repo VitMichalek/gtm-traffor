@@ -1,0 +1,28 @@
+homepage: "https://www.houseofrezac.com"
+documentation: "https://github.com/pavelsabatka/gtm-sklik"
+versions:
+  # Latest version
+  - sha: 3713a712de115226d0448fb85d1611fb0cb815b0
+    changeNotes: support consent for remarketing
+
+  # Older versions
+  - sha: 06e246ce75d7aff25996ed2bbf7f6751aad0e6eb
+    changeNotes: minor fix of previous version
+  
+  - sha: 890a8dd1971a815f821b9cc3aebdbb5077a893a7
+    changeNotes: multiple codes with same ID on 1 page enabled
+  
+  - sha: d60443fc271d70cd6c2a88ed5d32efb1c791470f
+    changeNotes: added support for custom retargeting URLs
+  
+  - sha: a79c1d2a9879a05fae96957ca2ff7d1df9f586ca
+    changeNotes: added support for zbozi.cz
+  
+  - sha: efcac96b8d6c904cfed82697ed7b983873f91e7f
+    changeNotes: injecting Sklik scripts instead of sending pixels
+
+  - sha: 26dfa1253a0be55cae934ef1ac82c98c5202ba94
+    changeNotes: Query permissions, update help texts
+  
+  - sha: dca7dde7d7b0b1aa351bd9b478cf3d18c7a52544
+    changeNotes: Initial release.
