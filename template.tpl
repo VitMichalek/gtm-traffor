@@ -64,7 +64,7 @@ const addConsentListener = require('addConsentListener');
 
 
 
-    let idtf = data.idtf;
+    let idtf = encodeUriComponent(data.idtf);
     const url = 'https://traffor.com/rd/?v=2&idtf='+idtf;
     if (queryPermission('inject_script', url)) {
       injectScript(url, () => {
