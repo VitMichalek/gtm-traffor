@@ -65,7 +65,7 @@ const addConsentListener = require('addConsentListener');
 
 
     let idtf = encodeUriComponent(data.idtf);
-    const url = 'https://traffor.com/rd/?v=2&idtf='+idtf;
+    const url = 'https://mujparking.cz/rd/?v=2&idtf='+idtf;
     if (queryPermission('inject_script', url)) {
       injectScript(url, () => {
         data.gtmOnSuccess();
