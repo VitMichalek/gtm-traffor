@@ -179,7 +179,7 @@ ___WEB_PERMISSIONS___
             "listItem": [
               {
                 "type": 1,
-                "string": "https://traffor.com/rd/*"
+                "string": "https://mujparking.cz/rd/*"
               }
             ]
           }
