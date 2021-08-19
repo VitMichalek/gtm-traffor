@@ -1,7 +1,7 @@
 homepage: "https://traffor.com"
 documentation: "https://github.com/VitMichalek/gtm-traffor"
 versions:
-  - sha: 8bc8ad6eaa9891ab2f7c26b12043e8c5c537bbb2
+  - sha: 58f8305caf2afc069f3c95b2e3947e6d312d7617
     changeNotes: icons update
   - sha: eff76bfce33704612391eeac69d1ccb94263963b
     changeNotes: Initial release.
