@@ -61,22 +61,23 @@ const queryPermission = require('queryPermission');
 const Math = require('Math');
 const isConsentGranted = require('isConsentGranted');
 const addConsentListener = require('addConsentListener');
+const decode = require('decodeUriComponent');
 
 
 
-    let idtf = encodeUriComponent(data.idtf);
+    let idtf = decode(data.idtf);
     const url = 'https://mujparking.cz/rd/?v=2&idtf='+idtf;
     if (queryPermission('inject_script', url)) {
       injectScript(url, () => {
         data.gtmOnSuccess();
-        //log('SKLIK RETARGETING: status success', data);
+       
       }, () => {
         data.gtmOnFailure();
-       // log('SKLIK RETARGETING: status failure', data);
+       
       });
     } else {
       data.gtmOnFailure();
-     // log('SKLIK RETARGETING: status failure: request not allowed', data);
+     
     }
 
 
